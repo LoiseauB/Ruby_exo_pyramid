@@ -7,6 +7,6 @@ year = year_input.to_i
 compte = year
 
 ((2022-year)+1).times do
-  compte = compte+1
   puts compte
+  compte = compte+1
 end
